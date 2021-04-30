@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(210, 247, 234);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: wavy;
+    font-style: italic;
+    font-weight: 500;
+    color: crimson;
+    font-size: 100;
+}
+
+.contain {
+    widows: 60%;
+    margin: 10% auto;
+}
+
+p {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.style {
+    text-decoration: underline;
+}
+
+.item {
+    background-color: azure;
+    color: rgb(240, 132, 153);
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+.item span {
+    font-size: 20px;
+    padding: 1px;
+    display: inline-block;
+    border: .2px solid black;
+}
+
+.item span.titel {
+    background-color: rgb(210, 247, 234);
+    color: steelblue;
+}
+
+.item span.name {
+    width: 50%;
+}
+
+form input[type="text"] {
+    width: 32%;
+}
+
+.item span.age {
+    width: 23%;
+}
+
+form input[type="number"] {
+    width: 15%;
+}
+
+.item span.action {
+    width: 23%;
+}
+
+form input[type="submit"] {
+    width: 13%;
+}
+
+.three {
+    text-align: center;
+}
